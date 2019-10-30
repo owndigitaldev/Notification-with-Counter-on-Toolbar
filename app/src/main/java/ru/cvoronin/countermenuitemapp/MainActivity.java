@@ -3,7 +3,6 @@ package ru.cvoronin.countermenuitemapp;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import androidx.appcompat.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,8 +11,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends ActionBarActivity {
+
+public class MainActivity extends AppCompatActivity {
 
     private int count = 0;
 
